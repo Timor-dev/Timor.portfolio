@@ -67,6 +67,30 @@
       background: #8e2de2;
     }
 
+    /* ✅ Social Buttons */
+    .social-links {
+      margin-top: 1rem;
+    }
+
+    .social-btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 10px 22px;
+      border-radius: 25px;
+      background: rgba(255, 255, 255, 0.15);
+      color: #fff;
+      font-weight: bold;
+      box-shadow: 0 0 12px rgba(0,0,0,0.4);
+      transition: 0.3s ease;
+    }
+
+    .social-btn:hover {
+      background: #fff;
+      color: #4a00e0;
+      transform: translateY(-2px);
+      box-shadow: 0 0 15px #fff;
+    }
+
     .project {
       background: rgba(255,255,255,0.05);
       padding: 1rem;
@@ -75,19 +99,8 @@
       box-shadow: 0 0 10px #000;
     }
 
-    .links a {
-      display: inline-block;
-      margin-right: 15px;
-      font-weight: bold;
-    }
-
     a {
-      color: #e0b3ff;
       text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
     }
 
     footer {
@@ -108,19 +121,17 @@
     <h3>Flutter Developer</h3>
     <p>Egypt</p>
 
-    <div class="links">
-      <a href="https://github.com/Timor-dev" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/abd-el-rahman-a-sharabash-478a84299" target="_blank">LinkedIn</a>
+    <div class="social-links">
+      <a class="social-btn" href="https://github.com/Timor-dev" target="_blank">GitHub</a>
+      <a class="social-btn" href="https://www.linkedin.com/in/abd-el-rahman-a-sharabash-478a84299" target="_blank">LinkedIn</a>
     </div>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      I'm Timor, a Flutter developer from Egypt. I focus on building clean and functional
-      mobile applications using Dart and Flutter. I have a solid understanding of
-      programming fundamentals, OOP, widgets, and state management.
-      I'm continuously improving my skills and working on real projects.
+      I'm Timor, a Flutter developer from Egypt focused on building clean and functional
+      mobile applications using Dart and Flutter.
     </p>
   </section>
 
@@ -139,16 +150,11 @@
 
   <section>
     <h2>Projects</h2>
-
     <div class="project">
       <h3>Flutter Projects</h3>
-      <p>
-        A collection of Flutter apps and practice projects showcasing UI building,
-        state management, and app logic.
-      </p>
+      <p>Collection of Flutter apps and practice projects.</p>
       <a href="https://github.com/Timor-dev" target="_blank">View on GitHub</a>
     </div>
-
   </section>
 
   <section>
