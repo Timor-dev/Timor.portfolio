@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Timor | Flutter Developer</title>
+
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -38,6 +39,17 @@
       padding: 2rem 1rem;
     }
 
+    h2 {
+      border-bottom: 2px solid #8e2de2;
+      display: inline-block;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
     .skills span {
       display: inline-block;
       background: rgba(255, 255, 255, 0.1);
@@ -55,12 +67,18 @@
       background: #8e2de2;
     }
 
-    footer {
-      text-align: center;
-      padding: 1.5rem;
-      background: #1c1b2f;
-      color: #aaa;
-      box-shadow: 0 -2px 10px #8e2de2;
+    .project {
+      background: rgba(255,255,255,0.05);
+      padding: 1rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 15px;
+      font-weight: bold;
     }
 
     a {
@@ -72,31 +90,38 @@
       text-decoration: underline;
     }
 
-    h2 {
-      border-bottom: 2px solid #8e2de2;
-      display: inline-block;
-      margin-bottom: 10px;
-      padding-bottom: 5px;
-    }
-
-    p {
-      line-height: 1.6;
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #1c1b2f;
+      color: #aaa;
+      box-shadow: 0 -2px 10px #8e2de2;
     }
   </style>
 </head>
+
 <body>
 
   <header>
-    <!-- الصورة الجديدة -->
     <img src="https://i.postimg.cc/B6F4GWyL/IMG-0845.jpg" alt="Timor">
     <h1>Timor</h1>
     <h3>Flutter Developer</h3>
-    <p>From Egypt</p>
+    <p>Egypt</p>
+
+    <div class="links">
+      <a href="https://github.com/Timor-dev" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/abd-el-rahman-a-sharabash-478a84299" target="_blank">LinkedIn</a>
+    </div>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>I'm Timor, a passionate Flutter developer from Egypt. I’ve started my journey learning mobile app development using Dart and Flutter. I’ve learned programming fundamentals, OOP, working with widgets, and state management. I'm excited to grow and build real-world apps.</p>
+    <p>
+      I'm Timor, a Flutter developer from Egypt. I focus on building clean and functional
+      mobile applications using Dart and Flutter. I have a solid understanding of
+      programming fundamentals, OOP, widgets, and state management.
+      I'm continuously improving my skills and working on real projects.
+    </p>
   </section>
 
   <section>
@@ -107,7 +132,23 @@
       <span>OOP</span>
       <span>Widgets</span>
       <span>State Management</span>
+      <span>Git</span>
+      <span>GitHub</span>
     </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Flutter Projects</h3>
+      <p>
+        A collection of Flutter apps and practice projects showcasing UI building,
+        state management, and app logic.
+      </p>
+      <a href="https://github.com/Timor-dev" target="_blank">View on GitHub</a>
+    </div>
+
   </section>
 
   <section>
